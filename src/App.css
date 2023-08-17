@@ -1,0 +1,25 @@
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+
+button{
+    outline: none;
+    background-color: purple;
+    color: lime;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: purple;
+    background-color: lime;
+}
+img{
+    width: 90%;
+}
